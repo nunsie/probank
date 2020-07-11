@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/nunsie/probank/compare/v1.1.0...v1.1.1) (2020-07-11)
+
+
+### Bug Fixes
+
+* semantic config ([b459a2d](https://github.com/nunsie/probank/commit/b459a2dd639caa43e11e7d1bc11f92e7e3159a7d))
+
 # [1.1.0](https://github.com/nunsie/probank/compare/v1.0.0...v1.1.0) (2020-07-11)
 
 
