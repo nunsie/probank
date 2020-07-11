@@ -46,3 +46,8 @@ jobs:
         run: yarn build
         env:
           CI: true
+
+      - name: Release
+        run: yarn semantic-release
+        env:
+          CI: true
