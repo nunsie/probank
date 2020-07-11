@@ -48,6 +48,11 @@ jobs:
         env:
           CI: true
 
+      - name: Release
+        run: yarn semantic-release
+        env:
+          CI: true
+
       - name: Publish
         run: npm publish --access public
         env:
