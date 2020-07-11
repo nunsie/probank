@@ -49,11 +49,11 @@ jobs:
           CI: true
 
       - name: Release
-        run: yarn semantic-release
+        run: rm -rf ~/.npmrc && yarn semantic-release
         env:
           CI: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish
         run: npm publish --access public
