@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/nunsie/probank/compare/v1.0.0...v1.1.0) (2020-07-11)
+
+
+### Features
+
+* semantic-release ([c9663ce](https://github.com/nunsie/probank/commit/c9663cea4a622c26b8b34380680527976d0727db))
+
 # 1.0.0 (2020-07-11)
 
 
